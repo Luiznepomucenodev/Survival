@@ -1,0 +1,347 @@
+@use "variables";
+
+/*----------------------- TGlobais ------------------*/
+* {
+    font-family: 'Teko', sans-serif;
+
+}
+
+body {
+    color: #000;
+    background-color: #EDF0F2;
+}
+
+/*----------------------- Header ------------------*/
+header {
+
+    #navegacao{
+        ul{
+            margin-left: auto;
+            li {
+                margin: 0 1rem;
+                text-transform: uppercase;
+    
+                a {
+                    text-decoration: none;
+                    color: #000;
+    
+                    button {
+                        background-color: rgb(206, 5, 5);
+                        border: 0px;
+                        border-radius: 50%;
+                        font-size: 1.7rem;
+    
+                        i {
+                            color: #ffff;
+                            justify-content: center;
+                        }
+                    }
+    
+                    button:hover {
+                        cursor: pointer;
+                    }
+    
+                    &:hover {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+    .divisor{
+        width: 1px;
+        height: 33px;
+        background: rgb(168, 168, 168);
+    }
+        }
+  
+
+/*----------------------- Primeiro Conteúdo ------------------*/
+#contentOne {
+    margin: auto;
+    .first-col {
+        display: flex;
+
+        p {
+            transform: rotate(270deg);
+            width: 100px;
+        }
+
+        .icon {
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        i {
+            display: block;
+            margin: 10px 0;
+        }
+
+        .img-survive {
+            margin-left: auto;
+        }
+    }
+
+    #slider {
+        display: flex;
+        max-width: 1100px;
+        max-height: 700px;
+        margin: auto;
+
+
+        .pictures {
+            max-width: 850px;
+        }
+
+
+        .btn-indicator {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+
+            a {
+                margin: auto;
+                padding: 10px;
+                cursor: pointer;
+                text-transform: none;
+                font-size: 1.5rem;
+
+                &:hover {
+                    font-size: 2.4rem;
+                    border-bottom: 1px solid red;
+                }
+            }
+        }
+
+        .buttonsSlider {
+            display: flex;
+            margin-left: auto;
+        }
+    }
+}
+
+/*-----------------------Segundo Conteúdo ------------------*/
+#contentTwo {
+    margin: 50px auto 5px auto;
+    ul {
+
+        li {
+            margin: 25px;
+
+            h4 {
+                color: red;
+            }
+
+            a {
+                button {
+                    border: 0px;
+
+                    &:hover {
+                        background-color: white;
+                    }
+                }
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+    #boots {
+        background: url("../imagens/bgBoots.svg") no-repeat center top;
+        margin-bottom: 20px;
+
+        #ImgBoots {
+            margin: auto;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        p {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .challenges {
+            transform: rotate(-20deg);
+            color: red;
+            position: relative;
+            left: 55px;
+            top: 80px;
+            font-size: 90px;
+        }
+
+        .text-boots {
+            max-width: 400px;
+            margin: auto;
+
+            a {
+                button {
+                    border: 0px;
+
+                    &:hover {
+                        background-color: white;
+                    }
+
+                    img {
+                        margin-top: 20px;
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*----------------------- Terceiro Conteúdo ------------------*/
+
+#contentTree {
+    margin: 40px auto 10px auto;
+
+    .left {
+        display: flex;
+
+        .textResults {
+            img {
+
+                font-size: 100px;
+                display: block;
+                margin: auto;
+            }
+        }
+    }
+
+    .contentLeft {
+        margin-left: 50px;
+        max-width: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1 {
+            color: red;
+            font-size: 180px;
+        }
+
+        span {
+            color: red;
+        }
+
+        img {
+            margin-right: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            display: inline;
+            font-size: 20px;
+            margin-top: 10px;
+
+            &:hover {
+                color: red;
+            }
+        }
+    }
+
+    .right {
+        background: url("../imagens/bgContentTree.svg") no-repeat center;
+        display: flex;
+        justify-content: center;
+
+        .contentRight {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            max-width: 300px;
+            color: white;
+            border: 10px solid red;
+            padding: 80px 20px 80px 20px;
+
+            h1 {
+                text-transform: uppercase;
+                margin: auto;
+            }
+
+            p {
+                font-size: 20px;
+                margin: auto;
+            }
+
+            img {
+                margin-right: 15px;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                margin-top: 20px;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+/*------------- Footer ----------------------*/
+
+footer {
+
+    
+    #footer {
+        margin: auto;
+        background: url("../imagens/bg-footer.png") no-repeat ;
+        background-size: cover;
+
+        .logoFooter {
+            margin: auto;
+        }
+
+        .lista {
+            margin-left: 50px;
+
+            display: flex;
+            justify-content: space-between;
+
+            h1 {
+                color: red;
+                font-size: 2.0rem;
+                text-transform: uppercase;
+            }
+
+            ul {
+                list-style: none;
+
+                li {
+                    a {
+                        text-decoration: none;
+                        color: #ffff;
+                        
+                        &:hover {
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+            }
+
+            i{
+                color: white;
+                margin: 40px 5px 5px 5px;
+
+                &:hover {
+                    color: #000;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

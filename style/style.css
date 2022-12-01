@@ -1,0 +1,271 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Adevale;
+  src: url(../fonts/Adevale.ttf);
+}
+/*----------------------- TGlobais ------------------*/
+* {
+  font-family: "Teko", sans-serif;
+}
+
+body {
+  color: #000;
+  background-color: #EDF0F2;
+}
+
+/*----------------------- Header ------------------*/
+header #navegacao ul {
+  margin-left: auto;
+}
+header #navegacao ul li {
+  margin: 0 1rem;
+  text-transform: uppercase;
+}
+header #navegacao ul li a {
+  text-decoration: none;
+  color: #000;
+}
+header #navegacao ul li a button {
+  background-color: rgb(206, 5, 5);
+  border: 0px;
+  border-radius: 50%;
+  font-size: 1.7rem;
+}
+header #navegacao ul li a button i {
+  color: white;
+  justify-content: center;
+}
+header #navegacao ul li a button:hover {
+  cursor: pointer;
+}
+header #navegacao ul li a:hover {
+  font-size: 1.1rem;
+}
+header .divisor {
+  width: 1px;
+  height: 33px;
+  background: rgb(168, 168, 168);
+}
+
+/*----------------------- Primeiro Conteúdo ------------------*/
+#contentOne {
+  margin: auto;
+}
+#contentOne .first-col {
+  display: flex;
+}
+#contentOne .first-col p {
+  transform: rotate(270deg);
+  width: 100px;
+}
+#contentOne .first-col .icon {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+#contentOne .first-col i {
+  display: block;
+  margin: 10px 0;
+}
+#contentOne .first-col .img-survive {
+  margin-left: auto;
+}
+#contentOne #slider {
+  display: flex;
+  max-width: 1100px;
+  max-height: 700px;
+  margin: auto;
+}
+#contentOne #slider .pictures {
+  max-width: 850px;
+}
+#contentOne #slider .btn-indicator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+#contentOne #slider .btn-indicator a {
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+  text-transform: none;
+  font-size: 1.5rem;
+}
+#contentOne #slider .btn-indicator a:hover {
+  font-size: 2.4rem;
+  border-bottom: 1px solid red;
+}
+#contentOne #slider .buttonsSlider {
+  display: flex;
+  margin-left: auto;
+}
+
+/*-----------------------Segundo Conteúdo ------------------*/
+#contentTwo {
+  margin: 50px auto 5px auto;
+}
+#contentTwo ul li {
+  margin: 25px;
+}
+#contentTwo ul li h4 {
+  color: red;
+}
+#contentTwo ul li a button {
+  border: 0px;
+}
+#contentTwo ul li a button:hover {
+  background-color: white;
+}
+#contentTwo ul li div {
+  display: flex;
+  flex-direction: column;
+}
+#contentTwo #boots {
+  background: url("../imagens/bgBoots.svg") no-repeat center top;
+  margin-bottom: 20px;
+}
+#contentTwo #boots #ImgBoots {
+  margin: auto;
+}
+#contentTwo #boots h1 {
+  color: red;
+}
+#contentTwo #boots p {
+  max-width: 400px;
+  margin: auto;
+}
+#contentTwo #boots .challenges {
+  transform: rotate(-20deg);
+  color: red;
+  position: relative;
+  left: 55px;
+  top: 80px;
+  font-size: 90px;
+}
+#contentTwo #boots .text-boots {
+  max-width: 400px;
+  margin: auto;
+}
+#contentTwo #boots .text-boots a button {
+  border: 0px;
+}
+#contentTwo #boots .text-boots a button:hover {
+  background-color: white;
+}
+#contentTwo #boots .text-boots a button img {
+  margin-top: 20px;
+  width: 100px;
+}
+
+/*----------------------- Terceiro Conteúdo ------------------*/
+#contentTree {
+  margin: 40px auto 10px auto;
+}
+#contentTree .left {
+  display: flex;
+}
+#contentTree .left .textResults img {
+  font-size: 100px;
+  display: block;
+  margin: auto;
+}
+#contentTree .contentLeft {
+  margin-left: 50px;
+  max-width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#contentTree .contentLeft h1 {
+  color: red;
+  font-size: 180px;
+}
+#contentTree .contentLeft span {
+  color: red;
+}
+#contentTree .contentLeft img {
+  margin-right: 15px;
+}
+#contentTree .contentLeft a {
+  text-decoration: none;
+  color: #000;
+  display: inline;
+  font-size: 20px;
+  margin-top: 10px;
+}
+#contentTree .contentLeft a:hover {
+  color: red;
+}
+#contentTree .right {
+  background: url("../imagens/bgContentTree.svg") no-repeat center;
+  display: flex;
+  justify-content: center;
+}
+#contentTree .right .contentRight {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 300px;
+  color: white;
+  border: 10px solid red;
+  padding: 80px 20px 80px 20px;
+}
+#contentTree .right .contentRight h1 {
+  text-transform: uppercase;
+  margin: auto;
+}
+#contentTree .right .contentRight p {
+  font-size: 20px;
+  margin: auto;
+}
+#contentTree .right .contentRight img {
+  margin-right: 15px;
+}
+#contentTree .right .contentRight a {
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+#contentTree .right .contentRight a:hover {
+  color: #000;
+}
+
+/*------------- Footer ----------------------*/
+footer #footer {
+  margin: auto;
+  background: url("../imagens/bg-footer.png") no-repeat;
+  background-size: cover;
+}
+footer #footer .logoFooter {
+  margin: auto;
+}
+footer #footer .lista {
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+footer #footer .lista h1 {
+  color: red;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+footer #footer .lista ul {
+  list-style: none;
+}
+footer #footer .lista ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer #footer .lista ul li a:hover {
+  font-size: 1.1rem;
+}
+footer #footer .lista i {
+  color: white;
+  margin: 40px 5px 5px 5px;
+}
+footer #footer .lista i:hover {
+  color: #000;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
